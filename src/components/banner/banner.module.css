@@ -1,0 +1,35 @@
+/* Color Theme Swatches in Hex */
+.WebMoney-Redesign-1-hex { color: #06080D; }
+.WebMoney-Redesign-2-hex { color: #1B8EF2; }
+.WebMoney-Redesign-3-hex { color: #1A2E40; }
+.WebMoney-Redesign-4-hex { color: #22A2F2; }
+.WebMoney-Redesign-5-hex { color: #5CB9F2; }
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300&display=swap');
+
+/* The outer div of the banner */
+#outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06080D;
+    height: 25vh;
+    margin: none;
+}
+
+/* The inner div of the banner */
+#inner {
+    background-color: #FFFFFF;
+    height: 10vh;
+    width: 30%;
+    padding: 1.5rem 0rem;
+}
+
+/* A class for all things common to text */
+.text {
+    margin: 0px;
+    color: #1B8EF2;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
